@@ -15,9 +15,8 @@
 		A4750A7B281EFD6D0099065C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4750A7A281EFD6D0099065C /* Assets.xcassets */; };
 		A4750A7E281EFD6D0099065C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4750A7C281EFD6D0099065C /* LaunchScreen.storyboard */; };
 		A4750A8A281F1A200099065C /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750A89281F1A200099065C /* AddBirthdayViewController.swift */; };
-		A4750A8C281F29350099065C /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750A8B281F29350099065C /* Birthday.swift */; };
-		A4750A9928201C0C0099065C /* Birthday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750A9728201C0C0099065C /* Birthday+CoreDataClass.swift */; };
-		A4750A9A28201C0C0099065C /* Birthday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750A9828201C0C0099065C /* Birthday+CoreDataProperties.swift */; };
+		A4750A9928201C0C0099065C /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750A9728201C0C0099065C /* Birthday.swift */; };
+		A4750A9A28201C0C0099065C /* BirthdayProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4750A9828201C0C0099065C /* BirthdayProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +30,8 @@
 		A4750A7D281EFD6D0099065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4750A7F281EFD6D0099065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4750A89281F1A200099065C /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
-		A4750A8B281F29350099065C /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
-		A4750A9728201C0C0099065C /* Birthday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Birthday+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A4750A9828201C0C0099065C /* Birthday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Birthday+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4750A9728201C0C0099065C /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		A4750A9828201C0C0099065C /* BirthdayProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +69,8 @@
 				A4750A88281F19BD0099065C /* Helpers */,
 				A4750A87281F19A30099065C /* Controller */,
 				A4750A86281F199F0099065C /* View */,
-				A4750A85281F19950099065C /* Model */,
 			);
 			path = BirthdayTracker;
-			sourceTree = "<group>";
-		};
-		A4750A85281F19950099065C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A4750A8B281F29350099065C /* Birthday.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		A4750A86281F199F0099065C /* View */ = {
@@ -116,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				A4750A77281EFD6C0099065C /* BirthdayTracker.xcdatamodeld */,
-				A4750A9728201C0C0099065C /* Birthday+CoreDataClass.swift */,
-				A4750A9828201C0C0099065C /* Birthday+CoreDataProperties.swift */,
+				A4750A9728201C0C0099065C /* Birthday.swift */,
+				A4750A9828201C0C0099065C /* BirthdayProperties.swift */,
 			);
 			path = "Data Storage";
 			sourceTree = "<group>";
@@ -195,12 +184,11 @@
 			files = (
 				A4750A73281EFD6C0099065C /* TableViewController.swift in Sources */,
 				A4750A8A281F1A200099065C /* AddBirthdayViewController.swift in Sources */,
-				A4750A9A28201C0C0099065C /* Birthday+CoreDataProperties.swift in Sources */,
-				A4750A8C281F29350099065C /* Birthday.swift in Sources */,
+				A4750A9A28201C0C0099065C /* BirthdayProperties.swift in Sources */,
 				A4750A6F281EFD6C0099065C /* AppDelegate.swift in Sources */,
 				A4750A71281EFD6C0099065C /* SceneDelegate.swift in Sources */,
 				A4750A79281EFD6C0099065C /* BirthdayTracker.xcdatamodeld in Sources */,
-				A4750A9928201C0C0099065C /* Birthday+CoreDataClass.swift in Sources */,
+				A4750A9928201C0C0099065C /* Birthday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
