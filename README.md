@@ -1,8 +1,10 @@
 # BirthdayTracker
-An iOS app that allows you to track birthdays.
+🎂 An iOS app that allows you to track birthdays.
 
-Language: Swift
+Language: Swift.
 
-Data storage: Core Data
+Architechture: MVC.
 
-Notifications: UserNotifications
+Data storage: Core Data.
+
+Notifications: UserNotifications. 
