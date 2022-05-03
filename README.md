@@ -1,5 +1,5 @@
-# BirthdayTracker
-🎂 An iOS app that allows you to track birthdays.
+# 🎂 BirthdayTracker
+An iOS app that allows you to track birthdays.
 
 Language: Swift.
 
